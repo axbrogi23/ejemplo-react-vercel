@@ -38,6 +38,14 @@ function App() {
         Sumar 10
       </button>
       <h5>el contador: {count}</h5>
+      
+      <button
+          type="button"
+          className="counter"
+          onClick={() => setCount((count) => count * 10)}>
+          multiplicar x10
+        </button>
+        <h6>el contador: {count}</h6>
       </section>
       
       
