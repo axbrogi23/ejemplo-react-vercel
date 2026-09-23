@@ -31,14 +31,16 @@ function App() {
           Restar 10
         </button>
         <h4>el contador: {count}</h4>
+
+        <button type="button" 
+        className="counter" 
+        onClick={() => setCount((count) => count + 10)}>
+        Sumar 10
+      </button>
+      <h5>el contador: {count}</h5>
       </section>
       
-      <button type="button" 
-      className="counter" 
-      onClick={() => setCount((count) => count + 10)}>
-        Sumar 10
-        <h5>el contador: {count}</h5>
-      </button>
+      
 
       <div className="ticks"></div>
 
