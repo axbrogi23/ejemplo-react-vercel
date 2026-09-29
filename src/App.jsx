@@ -46,10 +46,17 @@ function App() {
           multiplicar x10
         </button>
         <h6>el contador: {count}</h6>
+
+        <button
+        type ="button"
+        className="counter"
+        onClick={() => setCount((count) => count / 10)}>
+        dividir /10
+      </button>
+      <h6>el contador: {count}</h6>
       </section>
       
-      
-
+  
       <div className="ticks"></div>
 
       <section id="next-steps">
