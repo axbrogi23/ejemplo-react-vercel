@@ -43,7 +43,7 @@ function App() {
           type="button"
           className="counter"
           onClick={() => setCount((count) => count * 10)}>
-          multiplicar x10
+          Multiplicar x10
         </button>
         <h6>el contador: {count}</h6>
 
@@ -51,9 +51,18 @@ function App() {
         type ="button"
         className="counter"
         onClick={() => setCount((count) => count / 10)}>
-        dividir /10
+        Dividir / 10
       </button>
       <h6>el contador: {count}</h6>
+
+      <button
+        type ="button"
+        className="counter"
+        onClick={() => setCount((count) => count ** 10)}>
+        Elevar a la 10
+      </button>
+      <h6>el contador: {count}</h6>
+
       </section>
       
   
