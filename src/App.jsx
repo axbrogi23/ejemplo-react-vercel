@@ -54,6 +54,22 @@ function App() {
         dividir /10
       </button>
       <h6>el contador: {count}</h6>
+
+      <button
+      type ="button"
+      className="counter"
+      onClick={() => setCount((count) => count = 0)}>
+      resetear
+    </button>
+    <h6>el contador: {count}</h6>
+
+    <button
+    type="button"
+    className="counter"
+    onClick={() => setCount((count) => count ** 10)}>
+    Elevar a la potencia de 10
+  </button>
+  <h6>el contador: {count}</h6>
       </section>
       
   
