@@ -55,14 +55,6 @@ function App() {
       </button>
       <h6>el contador: {count}</h6>
 
-      <button
-      type ="button"
-      className="counter"
-      onClick={() => setCount(0)}>
-      Resetear la cantidad
-    </button>
-    <h6>el contador: {count}</h6>
-
     <button
     type="button"
     className="counter"
@@ -70,6 +62,14 @@ function App() {
     Elevar a la potencia de 10
   </button>
   <h6>el contador: {count}</h6>
+
+  <button
+      type ="button"
+      className="counter"
+      onClick={() => setCount(0)}>
+      Resetear la cantidad
+    </button>
+    <h6>el contador: {count}</h6>
       </section>
       
   
